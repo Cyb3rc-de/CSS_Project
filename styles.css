@@ -4,7 +4,7 @@ nav ul {
 
 nav li { 
     display: inline;
-    margin-right: 15px;
+    margin-right: 50px;
 }
 
 body {
@@ -12,5 +12,15 @@ body {
 }
 
 .intro { 
-    color:red;
+    color:darkslategrey;
+}
+
+body {
+    background-color:darkgray;
+    color: white;
+}
+
+nav ul  {
+    color: green;
+
 }
