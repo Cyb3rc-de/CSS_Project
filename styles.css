@@ -4,20 +4,37 @@
     font-weight: bold;
 }
 
-
+ /* First CSS comment i guess */
 nav li { 
     display: inline;
     margin-right: 50px;
 }
 
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav a, footer a {
+    text-decoration: none;
+    color: lightblue;
+    font-size: 25px;
+}   
+
+nav a:hover, footer a:hover {
+    color: teal;
+}   
+
 body {
     font-family: roboto;
     background-color:darkgray;
-    color: rgb(248, 210, 210);
+    color: rgb(191, 92, 92);
 }
 
 .intro { 
-    color:darkslategrey;
+    color:whitesmoke;
+    font-size: 19px;
 }
 
 
@@ -33,7 +50,7 @@ header, footer {
 
 .sections {
     background-color: dimgray;
-    color: black;
+    color: white;
     padding: 20px;
     margin: 20px;
     border-radius: 90px;
@@ -44,4 +61,18 @@ img {
     display: inline;
     border-radius: 20px;
     margin: 10px;
+}
+
+
+a {
+    color: teal;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
