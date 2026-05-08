@@ -20,7 +20,8 @@ body {
     color: white;
 }
 
-nav ul  {
-    color: green;
-
+footer p {
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
