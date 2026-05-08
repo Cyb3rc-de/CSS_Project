@@ -17,7 +17,6 @@ body {
     font-family: roboto;
     background-color:darkgray;
     color: white;
-    text-align: center;
 }
 
 .intro { 
@@ -33,4 +32,13 @@ header, footer p {
 header, footer {
     background-color: darkslategray;
     padding: 20px;
+}
+
+.sections {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 90px;
+    text-align: center;
 }
