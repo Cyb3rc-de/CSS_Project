@@ -16,7 +16,8 @@ nav li {
 body {
     font-family: roboto;
     background-color:darkgray;
-    color: white
+    color: white;
+    text-align: center;
 }
 
 .intro { 
