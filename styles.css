@@ -1,3 +1,9 @@
+#logo {
+    font-size: 40px;
+    color: teal;
+    font-weight: bold;
+}
+
 nav ul {
     list-style: none;
 }
@@ -9,19 +15,21 @@ nav li {
 
 body {
     font-family: roboto;
+    background-color:darkgray;
+    color: white
 }
 
 .intro { 
     color:darkslategrey;
 }
 
-body {
-    background-color:darkgray;
+
+header, footer p {
+    text-align: center;
     color: white;
 }
 
-footer p {
-    text-align: center;
+header, footer {
+    background-color: darkslategray;
     padding: 20px;
-    color: white;
 }
