@@ -4,9 +4,6 @@
     font-weight: bold;
 }
 
-nav ul {
-    list-style: none;
-}
 
 nav li { 
     display: inline;
@@ -16,7 +13,7 @@ nav li {
 body {
     font-family: roboto;
     background-color:darkgray;
-    color: white;
+    color: rgb(248, 210, 210);
 }
 
 .intro { 
@@ -35,10 +32,16 @@ header, footer {
 }
 
 .sections {
-    background-color: white;
+    background-color: dimgray;
     color: black;
     padding: 20px;
     margin: 20px;
     border-radius: 90px;
     text-align: center;
+}
+
+img {
+    display: inline;
+    border-radius: 20px;
+    margin: 10px;
 }
