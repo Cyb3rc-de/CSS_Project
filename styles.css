@@ -61,6 +61,13 @@ img {
     display: inline;
     border-radius: 20px;
     margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 
@@ -70,6 +77,15 @@ a {
 
 a:hover {
     color: lightblue;
+
+}
+
+div {
+    border-style:dashed;
+    border-color: dimgray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
 }
 
 
