@@ -1,94 +1,78 @@
+/* First CSS comment i guess */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
 #logo {
-    font-size: 40px;
-    color: teal;
-    font-weight: bold;
-}
-
- /* First CSS comment i guess */
-nav li { 
-    display: inline;
-    margin-right: 50px;
+    font-size: 42px;
+    color: #00ffd5;
+    letter-spacing: 2px;
 }
 
 
+body {
+    font-family: Roboto;
+    background-color:#0b0f14;
+    color:#e6edf3;
+}
+
+
+/* Nav */
 nav ul {
     list-style-type: none;
 }
 
 
-nav a, footer a {
+nav a {
     text-decoration: none;
-    color: lightblue;
+    color: #cbd5e1;
     font-size: 25px;
-}   
+}  
 
-nav a:hover, footer a:hover {
-    color: teal;
-}   
 
-body {
-    font-family: roboto;
-    background-color:darkgray;
-    color: rgb(6, 4, 4);
-}
-
-.intro { 
-    color:whitesmoke;
-    font-size: 19px;
+nav a:hover {
+    color: #00ffd5;
+    text-shadow: 0 0 8px #00ffd5;
 }
 
 
-header, footer p {
-    text-align: center;
-    color: white;
+
+nav li { 
+    display: inline-block;
+    margin-right: 40px;
 }
 
-header, footer {
-    background-color: darkslategray;
-    padding: 20px;
-}
 
+
+/* Sections */
 .sections {
-    background-color: dimgray;
-    color: white;
-    padding: 20px;
-    margin: 20px;
+    color: #00ffd5;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 90px;
     text-align: center;
-}
-
-img {
-    display: inline;
-    border-radius: 20px;
-    margin: 10px;
-    max-width: 100%;
-    height: auto;
-}
-
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+    letter-spacing: 1px;
 }
 
 
-a {
-    color: teal;
-}
+section {
+    background: #1a1f2b;
+    border-radius: 16px;
+    padding: 25px;
+    margin: 25px;
 
-a:hover {
-    color: lightblue;
-
-}
-
-div {
-    border-style:dashed;
-    border-color: dimgray;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 30px;
 }
 
 
-html {
-    scroll-behavior: smooth;
+.intro {
+    color: #cbd5e1;
+    line-height: 3;
+}
+
+
+footer p {
+    color: #94a3b8;
+    text-align: center;
 }
